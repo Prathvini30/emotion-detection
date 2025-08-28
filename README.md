@@ -1,28 +1,28 @@
-Emotion Detection
+Emotion Detection (Text-Based)
 Overview
 
-The Emotion Detection project is a machine learning application designed to analyze and classify human emotions from facial expressions using deep learning techniques. This project leverages a pre-trained model to identify emotions such as happiness, sadness, anger, surprise, fear, disgust, and neutral states.
+The Emotion Detection project is a machine learning web application that detects the emotions conveyed in user-written text. Users can type sentences, and the system predicts emotions such as happy, sad, angry, surprise, fear, disgust, or neutral.
+
+The project features a user-friendly Streamlit interface and a pre-trained NLP model to classify emotions accurately.
 
 Features
 
-Emotion Classification: Detects and classifies facial expressions into seven distinct emotions.
+Text Input: Users can write a sentence or paragraph.
 
-Real-Time Analysis: Capable of processing live video streams for immediate emotion recognition.
+Emotion Prediction: Detects emotions in the text in real-time.
 
-User-Friendly Interface: Built with Streamlit for an intuitive and interactive user experience.
+Interactive UI: Built with Streamlit for easy use.
 
-Pre-trained Model: Utilizes a MobileNetV2 model fine-tuned on a facial emotion dataset for accurate predictions.
+Pre-trained Model: Uses a fine-tuned NLP model for emotion classification.
 
 Technologies Used
 
-Python: Programming language for backend development.
+Python: Core programming language.
 
-Streamlit: Framework for building the interactive web interface.
+Streamlit: Web interface for interactive usage.
 
-TensorFlow/Keras: Deep learning libraries for model implementation.
+Transformers (Hugging Face): Pre-trained NLP models for text-based emotion detection.
 
-OpenCV: Library for video capture and image processing.
+PyTorch / TensorFlow: Deep learning backend for model inference.
 
-Hugging Face Transformers: For advanced NLP tasks (if applicable).
-
-
+Pandas / NumPy: Data processing and handling.
