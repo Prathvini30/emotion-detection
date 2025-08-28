@@ -25,38 +25,4 @@ OpenCV: Library for video capture and image processing.
 
 Hugging Face Transformers: For advanced NLP tasks (if applicable).
 
-Installation & Setup
-1. Clone the Repository
-git clone https://github.com/Prathvini30/emotion-detection.git
-cd emotion-detection
 
-2. Set Up Virtual Environment
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On macOS/Linux
-source venv/bin/activate
-
-3. Install Dependencies
-pip install -r requirements.txt
-
-4. Run the Application
-streamlit run frontend/app.py
-
-Usage
-
-Launch the application using the command above.
-
-Grant camera access when prompted.
-
-The application will display a live feed and analyze facial expressions in real-time.
-
-Detected emotions will be shown with corresponding confidence scores.
-
-Future Enhancements
-
-Multi-Modal Emotion Detection: Incorporate voice and text analysis for a comprehensive emotion recognition system.
-
-Model Optimization: Improve model accuracy and performance for better real-time analysis.
-
-User Authentication: Add user login and profile features for personalized experiences.
